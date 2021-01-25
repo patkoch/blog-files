@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <test-run id="0" engine-version="3.11.1.0" clr-version="4.0.30319.42000" testcasecount="1" runstate ="Runnable" result="<Result: e.g. 'Passed'>" total="1" passed="0" failed="1" warnings ="0" inconclusive="0" skipped="0" asserts="0" start-time="<TimeStamp of Start Time>" end-time="<TimeStamp of End Time>" duration="<Duration e.g.: '40'>">
-<test-suite type="Assembly" id="0-1001" name="TestManagerTest Run" fullname="TestManagerTest FullName" testcasecount="1" runstate="Runnable" result="Passed" total="1" passed ="0" failed ="1" warnings="0" inconclusive="0" skipped="0" asserts ="0" start-time="<TimeStamp of Start Time>" end-time="<TimeStamp of End Time>" duration="<Duration e.g.: '40'>>">
-<test-suite type="TestSuite" id="0-1002" name="TestManagerTest Run TestSuite" fullname="TestManagerTest FullName TestSuite" testcasecount="1" runstate="Runnable" result="Passed" total="1" passed ="0" failed ="1" warnings="0" inconclusive="0" skipped="0" asserts ="0" start-time="<TimeStamp of Start Time e.g.: '2020-09-15 02:00:53Z'>" end-time="<TimeStamp of End Time>" duration="<Duration e.g.: '40'>">
+<test-suite type="Assembly" id="0-1001" name="TestManagerTest Run" fullname="<Some Name>" testcasecount="1" runstate="Runnable" result="Passed" total="1" passed ="0" failed ="1" warnings="0" inconclusive="0" skipped="0" asserts ="0" start-time="<TimeStamp of Start Time>" end-time="<TimeStamp of End Time>" duration="<Duration e.g.: '40'>>">
+<test-suite type="TestSuite" id="0-1002" name="TestManagerTest Run TestSuite" fullname="<Some Name> TestSuite" testcasecount="1" runstate="Runnable" result="Passed" total="1" passed ="0" failed ="1" warnings="0" inconclusive="0" skipped="0" asserts ="0" start-time="<TimeStamp of Start Time e.g.: '2020-09-15 02:00:53Z'>" end-time="<TimeStamp of End Time>" duration="<Duration e.g.: '40'>">
 <test-case id="<Sample ID>" name="<Name of the test>" fullname="<Full name of the test" methodname="<Method>" runstate="Runnable" result="Failed" asserts="0" duration ="<Duration in proper format>" classname="<Name of the class>">
 <failure>
 <message><![CDATA["Message you would like to show at the 'Debug' tab"]]></message>
 </failure>
 <attachments>
 <attachment>
-<filePath><First Path to the attachment></filePath>
+<filePath><"First Path to the attachment"></filePath>
 </attachment>
 <attachment>
-<filePath><Second Path to the attachment></filePath>
+<filePath><"Second Path to the attachment"></filePath>
 </attachment>
 <attachment>
-<filePath><Third Path to the attachment></filePath>
+<filePath><"Third Path to the attachment"></filePath>
 </attachment>
 <attachment>
-<filePath><Fourth Path to the attachment></filePath>
+<filePath><"Fourth Path to the attachment"></filePath>
 </attachment>
 <attachment>
-<filePath><Fifth Path to the attachment></filePath>
+<filePath><"Fifth Path to the attachment"></filePath>
 </attachment>
 </attachments>
 </test-case>
