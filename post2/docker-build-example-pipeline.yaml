@@ -1,0 +1,11 @@
+steps:
+- task: Docker@1
+  displayName: 'Example Docker Build'
+  inputs:
+    containerregistrytype: 'Container Registry'
+    dockerRegistryEndpoint: <your docker registry>
+    command: build
+    dockerFile: '<your path to the dockerfile>/Dockerfile'
+    arguments: '<build arguments you need>'
+    imageName: '<name of the image>:<including a tag>'
+  timeoutInMinutes: 20
