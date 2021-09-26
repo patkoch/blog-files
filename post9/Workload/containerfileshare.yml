@@ -1,0 +1,25 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: containerfileshare
+spec:
+  template:
+    spec:
+      containers:
+      - name: containerfileshare
+        image: patricksregistry.azurecr.io/patricksrepo:containerfileshare-v1
+        env:
+        - name: mount_letter
+          value: "Z"
+        - name: azure_storage
+          value: "patricksstorageaccount.file.core.windows.net"
+        - name: azure_fileshare_name
+          value: "patricksfileshare"
+        - name: user
+          value: "localhost\\patricksstorageaccount"
+        - name: password
+          value: "**********************************"
+      nodeSelector:
+        kubernetes.io/os: windows
+      restartPolicy: Never
+  backoffLimit: 4
