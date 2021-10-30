@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: mylinuxcontainer
+spec:
+  template:
+    spec:
+      containers:
+      - name: mylinuxcontainer
+        image: patricksregistry.azurecr.io/patricksrepo:mylinuxcontainer
+      nodeSelector:
+        kubernetes.io/os: linux
+      restartPolicy: Never
+  backoffLimit: 4
